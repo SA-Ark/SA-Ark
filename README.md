@@ -11,12 +11,17 @@ been up for six months."
 
 ## What's here
 
-| Repo | What it proves |
-|---|---|
-| [**aegis**](https://github.com/SA-Ark/aegis) | Production readiness audit CLI — secrets, dependency, test-debt, config, and live-endpoint risk graded into one defensible score |
-| [**nexus**](https://github.com/SA-Ark/nexus) | Multi-agent orchestration runtime — DAG scheduling, evidence-based liveness, auto-recovery, human-in-the-loop blockers, token-cost governance |
-| [**mindvault**](https://github.com/SA-Ark/mindvault) | RAG + knowledge-graph memory engine on pgvector — six-stage hybrid recall with a built-in eval harness (recall@k, MRR, latency percentiles) |
-| [**scour**](https://github.com/SA-Ark/scour) | Hybrid search primitives for Rust — BM25, HNSW, reciprocal-rank fusion, UTF-8-safe chunking. Zero dependencies |
+| Repo | What it proves | Source |
+|---|---|---|
+| [**portfolio**](https://github.com/SA-Ark/portfolio) | The whole estate: 130+ production services run by one engineer — architecture, numbers, live products | showcase |
+| [**nexus**](https://github.com/SA-Ark/nexus) | Multi-agent orchestration with recovery + human-in-the-loop — **[live demo](https://nexus.chakrakali.com)**: watch real agents fail and recover | showcase + live demo |
+| [**aegis**](https://github.com/SA-Ark/aegis) | Production readiness audit CLI — secrets, dependency, test-debt, config, and live-endpoint risk graded into one defensible score | **open source** |
+| [**mindvault**](https://github.com/SA-Ark/mindvault) | AI memory engine — hybrid RAG + knowledge graph, 158K+ memories in production, architected for billions | showcase |
+| [**scour**](https://github.com/SA-Ark/scour) | Hybrid search primitives for Rust — BM25, HNSW, RRF, zero dependencies — **[live demo](https://scour.chakrakali.com)** | **open source** |
+
+Product source is private (commercial systems, paying users). The open repos are the layers
+worth sharing; the showcases carry live demos so you can judge behavior instead of promises.
+Happy to walk any private codebase live in an interview.
 
 ## Operating principles
 
@@ -37,3 +42,4 @@ been up for six months."
 ---
 
 *If your AI app made it to production and production is winning — that's my lane.*
+**Building something? I take a small number of fixed-price engagements → [ark.chakrakali.com](https://ark.chakrakali.com)**
