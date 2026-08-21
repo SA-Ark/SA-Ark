@@ -1,29 +1,43 @@
 <!--
   PROFILE README HUB — renders at github.com/SA-Ark
   Identity: mononym "Ark" <engineering@chakrakali.com> (ratified 07-21).
-  Stats endpoints use token {{STATS_BASE}} → replaced with the self-hosted VPS URL at wire-up.
-  Curated widget set (NOT overloaded): typing hero · stats · streak · top-langs · activity graph · snake · trophies.
-  No "self-hosted stats" announcement line (unverifiable/gameable — we just do it).
+  Stats are self-hosted via lowlighter/metrics → committed to the `output` branch (see .github/workflows/metrics.yml).
+  Curated widget set (NOT overloaded): typing hero · metrics · isocalendar · languages · streak · activity graph · snake · trophies.
+
+  SEO / keywords (recruiter tooling parses this): AI Engineer, Machine Learning Engineer, LLM, LLMOps, MLOps,
+  RAG (Retrieval-Augmented Generation), multi-agent systems, agentic AI, AI agents, LLM orchestration,
+  vector database, pgvector, semantic search, hybrid search, knowledge graph, embeddings, inference,
+  distributed systems, microservices, system design, AI infrastructure, production AI, GPU, CUDA,
+  Rust, TypeScript, Python, PostgreSQL, Next.js, Docker, CI/CD, observability, prompt engineering,
+  self-hosted AI platform, video generation, media pipelines.
 -->
 
 <h1 align="center">Ark</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=5A67D8&center=true&vCenter=true&width=720&lines=Production+AI+Systems+Engineer;I+make+AI+systems+survive+production;Rust+%C2%B7+multi-agent+orchestration+%C2%B7+RAG+at+scale" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=5A67D8&center=true&vCenter=true&width=760&lines=Production+AI+Systems+Engineer;120%2B+production+services+%C2%B7+operated+solo;Multi-agent+orchestration+%C2%B7+RAG+%C2%B7+pgvector+%C2%B7+GPU;LLM+inference+%C2%B7+knowledge-graph+memory+%C2%B7+MLOps" alt="typing" />
   </a>
 </p>
 
 <p align="center">
-  <b>I build and operate a production AI estate solo.</b><br/>
-  Multi-agent orchestration, retrieval at scale, GPU media pipelines — and the unglamorous
-  machinery that keeps them alive: supervision, recovery, cost governance, measurement.<br/>
-  My specialty is the gap between "the demo worked" and "it's been up for six months."
+  <b>AI Engineer building and operating a self-hosted, production AI platform — solo.</b><br/>
+  Multi-agent orchestration, RAG and semantic search over pgvector, GPU media generation, and the
+  distributed-systems machinery that keeps it all alive: supervision, auto-recovery, observability, cost governance.
+</p>
+
+<p align="center">
+  <b>120+ production services · one engineer · 12,166 private contributions in the last year</b><br/>
+  <sub>189,000+ memories at 100% embedding coverage · Rust · TypeScript · Python</sub>
 </p>
 
 <p align="center">
   🔗 <a href="https://ark.chakrakali.com"><b>Portfolio & case studies → ark.chakrakali.com</b></a>
   &nbsp;·&nbsp; 📫 <a href="mailto:engineering@chakrakali.com">engineering@chakrakali.com</a>
+</p>
+
+<p align="center">
+  <sub>Open to <b>select remote contract / consulting engagements</b> — LLM orchestration, RAG, and AI infrastructure.</sub>
 </p>
 
 ---
@@ -32,18 +46,21 @@
 
 | Repo | What it proves |
 |---|---|
-| [**portfolio**](https://github.com/SA-Ark/portfolio) | The estate map — 120+ production services, one engineer. Architecture, doctrine, and live demos. |
-| [**nexus**](https://github.com/SA-Ark/nexus) | Multi-agent orchestration — DAG scheduling, evidence-based liveness, auto-recovery, human-in-the-loop, cost governance. **[Live demo →](https://nexus.chakrakali.com)** |
-| [**aegis**](https://github.com/SA-Ark/aegis) | Production-readiness audit CLI — secrets, deps, test-debt, config, and live-endpoint risk graded into one defensible score. Full source, one binary. |
-| [**mindvault**](https://github.com/SA-Ark/mindvault) | RAG + knowledge-graph memory engine — hybrid recall over pgvector with a built-in eval harness (recall@k, MRR, latency percentiles). |
-| [**scour**](https://github.com/SA-Ark/scour) | Hybrid search primitives for Rust — BM25, HNSW, reciprocal-rank fusion, UTF-8-safe chunking. Zero dependencies. **[Live demo →](https://scour.chakrakali.com)** |
+| [**portfolio**](https://github.com/SA-Ark/portfolio) | The estate map — **120+ production microservices, one engineer**. Architecture, doctrine, and live demos. Showcase, no source. |
+| [**nexus**](https://github.com/SA-Ark/nexus) | **Multi-agent orchestration runtime** — DAG scheduling, evidence-based liveness, auto-recovery, human-in-the-loop gates, token-cost governance. **[Live demo →](https://nexus.chakrakali.com)** |
+| [**aegis**](https://github.com/SA-Ark/aegis) | **Production-readiness audit CLI** (Rust, one binary) — secrets, dependency, test-debt, config, and live-endpoint risk graded into one defensible score. Full source. |
+| [**mindvault**](https://github.com/SA-Ark/mindvault) | **RAG + knowledge-graph memory engine** on pgvector — hybrid recall (BM25 + vector + reciprocal-rank fusion) with a built-in eval harness (recall@k, MRR, latency percentiles). |
+| [**scour**](https://github.com/SA-Ark/scour) | **Zero-dependency Rust hybrid-search primitives** — BM25, HNSW ANN, reciprocal-rank fusion, UTF-8-safe chunking. **[Live demo →](https://scour.chakrakali.com)** · Full source. |
 
 ---
 
 <div align="center">
 
-<img height="165" src="{{STATS_BASE}}/api?username=SA-Ark&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=5A67D8&icon_color=5A67D8&theme=github_dark" alt="stats" />
-<img height="165" src="{{STATS_BASE}}/api/top-langs/?username=SA-Ark&layout=compact&langs_count=8&hide_border=true&title_color=5A67D8&theme=github_dark" alt="top languages" />
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.svg" alt="metrics" />
+
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.isocalendar.svg" alt="contribution calendar" />
+
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.languages.svg" alt="languages" />
 
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=SA-Ark&hide_border=true&ring=5A67D8&fire=5A67D8&currStreakLabel=5A67D8" alt="streak" />
 
@@ -63,7 +80,7 @@
 - **The diff is the proof.** Claims ship with benchmarks, tests, and before/after numbers — or they're marked pending.
 - **Debug the root cause.** Workarounds are debt with interest.
 - **No silent failures.** Detect → confirm → recover → escalate loudly. Liveness by evidence, never by arbitrary timeout.
-- **Measure retrieval, don't vibe it.** No eval harness → no quality claim.
+- **Measure retrieval, don't vibe it.** No eval harness → no quality claim. recall@k and MRR or it didn't happen.
 - **Quality is a ratchet.** Gates only tighten. A deploy that would lower the bar doesn't deploy.
 
 ### Stack
@@ -72,11 +89,19 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?logo=postgresql&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
+![GPU / CUDA](https://img.shields.io/badge/GPU%20%2F%20CUDA-76B900?logo=nvidia&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-5A67D8)
+![Multi--Agent](https://img.shields.io/badge/Multi--Agent%20Systems-5A67D8)
+![LLM Orchestration](https://img.shields.io/badge/LLM%20Orchestration-5A67D8)
+![Semantic Search](https://img.shields.io/badge/Semantic%20Search-5A67D8)
+![MLOps](https://img.shields.io/badge/MLOps-5A67D8)
+![Observability](https://img.shields.io/badge/Observability-5A67D8)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-5A67D8)
 ![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-5A67D8)
 
 ---
 
-<p align="center"><i>If your AI app made it to production and production is winning — that's my lane.</i></p>
+<p align="center"><i>Production AI, distributed systems, and the eval harnesses that keep them honest. That's the lane.</i></p>
