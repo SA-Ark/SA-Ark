@@ -31,11 +31,12 @@
 
 ### What I'd point you at first
 
-- **[nexus](https://github.com/SA-Ark/nexus)** — how I keep a fleet of AI agents from falling over. It schedules work as a dependency graph, notices when an agent stalls (by evidence, not a timeout), retries it, and stops to ask a human when a call is above its pay grade. [Watch it run →](https://nexus.chakrakali.com)
-- **[aegis](https://github.com/SA-Ark/aegis)** — a Rust CLI that grades a codebase or a live URL the way I would on day one of a rescue: leaked secrets, shaky dependencies, untested critical paths, sloppy config. One binary, one score. Full source.
-- **[mindvault](https://github.com/SA-Ark/mindvault)** — the memory layer behind my agents. Hybrid recall (BM25 + vectors, fused) over a knowledge graph on pgvector, and I don't ship a retrieval change without the eval harness proving it (recall@k, MRR, latency).
-- **[scour](https://github.com/SA-Ark/scour)** — the search primitives underneath that, pulled out into a zero-dependency Rust crate: BM25, HNSW, rank fusion, chunking that doesn't split a UTF-8 character in half. [Live demo →](https://scour.chakrakali.com) · Full source.
-- **[portfolio](https://github.com/SA-Ark/portfolio)** — the map of the whole estate: architecture, how one person operates 120+ services, and links to the live demos.
+- **[portfolio](https://github.com/SA-Ark/portfolio)** — the map of the whole estate: the architecture, how one person runs 120+ services, and links to every live demo. Start here.
+- **[nexus](https://github.com/SA-Ark/nexus)** — how I keep a fleet of AI agents from falling over. Work runs off a dependency graph, a stalled agent is caught by evidence rather than a timeout and retried, and anything genuinely risky stops to ask a human. [Watch it run →](https://nexus.chakrakali.com)
+- **[aegis](https://github.com/SA-Ark/aegis)** — a Rust CLI that grades a codebase or a live URL the way I would on day one of a rescue: leaked secrets, shaky dependencies, untested critical paths, sloppy config. One binary, one score. `cargo install aegis-audit`
+- **[mindvault](https://github.com/SA-Ark/mindvault)** — the memory layer behind my agents. Hybrid recall (BM25 + vectors, fused) over a knowledge graph on pgvector, and no retrieval change ships without the eval harness proving it (recall@k, MRR, latency).
+- **[scour](https://github.com/SA-Ark/scour)** — the search primitives underneath that, pulled into a zero-dependency Rust crate: BM25, HNSW, reciprocal-rank fusion, and chunking that never splits a UTF-8 character. [Live demo →](https://scour.chakrakali.com) · `cargo add scour-search`
+- **[crucible](https://github.com/SA-Ark/crucible)** — an evaluation harness for LLM and RAG systems. Score what your model actually returned against ground truth — recall@k, MRR, nDCG, token-F1 — with pass/fail thresholds that drop straight into CI. `cargo install crucible-eval`
 
 ---
 
@@ -85,10 +86,18 @@
 
 I don't call something done because it compiled — I call it done when it's verified on the real URL. Every claim I make about a system comes with a benchmark or a test, or I say it's pending. When something breaks I go find the actual cause instead of papering over it, because a workaround is just a slower bug. And I keep the quality gates one-directional: they can tighten, never loosen.
 
+### Stack
+
+**Languages** · Rust · TypeScript · Python · SQL
+
+**AI / ML** · LLM orchestration · multi-agent systems · RAG · vector search · knowledge graphs · pgvector · embeddings · GPU inference · MLOps
+
+**Backend / Data** · Axum · Tokio · PostgreSQL · Redis · Qdrant · REST APIs · WebSockets · async / concurrent systems
+
+**Infra / Ops** · Docker · Linux · systemd · Cloudflare · CI/CD · observability · self-hosted fleet · Model Context Protocol (MCP)
+
+**Frontend** · Next.js · React · Tailwind CSS
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PostgreSQL%20%2B%20pgvector-336791?logo=postgresql&logoColor=white" alt="PostgreSQL + pgvector" />
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://skillicons.dev/icons?i=rust,ts,python,go,postgres,redis,docker,linux,cloudflare,nextjs,react,tailwind,vercel,nginx,wasm,githubactions&perline=8" alt="tech stack" />
 </p>
