@@ -1,0 +1,54 @@
+name: estate-status
+on:
+  schedule: [{ cron: "23 4 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: estate-status
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render estate-status.svg
+        env:
+          # Optional: only used to fetch the PUBLIC contribution count for SA-Ark.
+          # Falls back to an honest "12,000+" when absent. No private scope needed.
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          node .github/scripts/render-estate-svg.mjs --self-test
+          node .github/scripts/render-estate-svg.mjs > estate-status.svg
+          test -s estate-status.svg
+          # fail loud if anything active/external sneaks in
+          if grep -Eq '<script|foreignObject|<image|<use| href=|url\(|@import' estate-status.svg; then
+            echo "::error::estate-status.svg contains disallowed active/external content"; exit 1
+          fi
+
+      - name: Commit to output branch
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          tmp="$(mktemp -d)"
+          cp estate-status.svg "$tmp/estate-status.svg"
+          rm -f estate-status.svg   # avoid untracked-file collision on checkout
+          git fetch origin output
+          git checkout output
+          cp "$tmp/estate-status.svg" estate-status.svg
+          git add estate-status.svg
+          if git diff --cached --quiet; then
+            echo "no change in estate-status.svg — nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(estate): refresh status dashboard"
+          git push origin output

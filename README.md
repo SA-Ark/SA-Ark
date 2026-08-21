@@ -40,6 +40,14 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/estate-status.svg" alt="estate status: 120+ self-hosted production services, 12,000+ contributions in the last 12 months, 180K+ memories indexed at 100% embedding coverage, Lighthouse 100" width="840" />
+
+</div>
+
+---
+
+<div align="center">
+
 <img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.svg" alt="metrics" />
 <img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.isocalendar.svg" alt="contribution calendar" />
 <img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.languages.svg" alt="languages" />
