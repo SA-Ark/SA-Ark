@@ -6,7 +6,8 @@
   AI infrastructure, Rust, TypeScript, Python, PostgreSQL, Next.js, MLOps.
 -->
 
-<h1 align="center">Ark</h1>
+<!-- Banner carries the name; the bare <h1>Ark</h1> is intentionally replaced by this. -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0d1117,100:1e3a5f&text=Ark&fontSize=52&fontColor=e2e8f0&fontAlignY=40&animation=fadeIn&desc=Production%20AI%20Systems%20Engineer&descSize=16&descAlignY=60&descColor=8b949e" alt="Ark — Production AI Systems Engineer" width="100%" />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -48,9 +49,33 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.svg" alt="metrics" />
-<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.isocalendar.svg" alt="contribution calendar" />
-<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.languages.svg" alt="languages" />
+<!-- lowlighter/metrics: single pre-rendered dark SVGs, no light variant exists — left as-is. -->
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.svg" alt="metrics" width="840" />
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.isocalendar.svg" alt="contribution calendar" width="840" />
+<img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.languages.svg" alt="languages" width="840" />
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- Activity graph: real light/dark variants, so it theme-switches with the viewer's GitHub theme. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SA-Ark&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20activity" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SA-Ark&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20activity" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SA-Ark&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20activity" alt="contribution activity graph" width="840" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- 3D isometric contribution calendar, generated daily by .github/workflows/profile-3d.yml. -->
+<!-- 404s until the Action first runs; the supervisor triggers it. -->
+<img src="./profile-3d-contrib/profile-night-view.svg" alt="3D isometric contribution calendar" width="840" />
 
 </div>
 

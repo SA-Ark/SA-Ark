@@ -1,0 +1,36 @@
+name: profile-3d
+on:
+  schedule: [{ cron: "41 5 * * *" }]   # daily, 05:41 UTC — offset from metrics (03:17) and estate-status (04:23)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit generated SVGs
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          if git diff --cached --quiet; then
+            echo "no change in profile-3d-contrib — nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(3d): refresh 3D contribution calendar"
+          git push
