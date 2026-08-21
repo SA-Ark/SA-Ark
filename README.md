@@ -1,100 +1,61 @@
 <!--
-  PROFILE README HUB — renders at github.com/SA-Ark
-  Identity: mononym "Ark" <engineering@chakrakali.com> (ratified 07-21).
-  Stats are self-hosted via lowlighter/metrics → committed to the `output` branch (see .github/workflows/metrics.yml).
-  Curated widget set (NOT overloaded): typing hero · self-hosted metrics · isocalendar · languages · activity graph.
-
-  SEO / keywords (recruiter tooling parses this): AI Engineer, Machine Learning Engineer, LLM, LLMOps, MLOps,
-  RAG (Retrieval-Augmented Generation), multi-agent systems, agentic AI, AI agents, LLM orchestration,
-  vector database, pgvector, semantic search, hybrid search, knowledge graph, embeddings, inference,
-  distributed systems, microservices, system design, AI infrastructure, production AI, GPU, CUDA,
-  Rust, TypeScript, Python, PostgreSQL, Next.js, Docker, CI/CD, observability, prompt engineering,
-  self-hosted AI platform, video generation, media pipelines.
+  PROFILE README HUB — github.com/SA-Ark  ·  identity: "Ark" <engineering@chakrakali.com>
+  Stats self-hosted via lowlighter/metrics -> output branch (.github/workflows/metrics.yml).
+  keywords for search: AI Engineer, Machine Learning, LLM, RAG, multi-agent systems, agentic AI,
+  LLM orchestration, pgvector, vector database, semantic search, knowledge graph, distributed systems,
+  AI infrastructure, Rust, TypeScript, Python, PostgreSQL, Next.js, MLOps.
 -->
 
 <h1 align="center">Ark</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=5A67D8&center=true&vCenter=true&width=760&lines=Production+AI+Systems+Engineer;120%2B+production+services+%C2%B7+operated+solo;Multi-agent+orchestration+%C2%B7+RAG+%C2%B7+pgvector+%C2%B7+GPU;LLM+inference+%C2%B7+knowledge-graph+memory+%C2%B7+MLOps" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=5A67D8&center=true&vCenter=true&width=760&lines=I+build+AI+systems+that+run+in+production;Multi-agent+orchestration+%C2%B7+RAG+%C2%B7+Rust;120%2B+services%2C+one+engineer" alt="typing" />
   </a>
 </p>
 
 <p align="center">
-  <b>AI Engineer building and operating a self-hosted, production AI platform — solo.</b><br/>
-  Multi-agent orchestration, RAG and semantic search over pgvector, GPU media generation, and the
-  distributed-systems machinery that keeps it all alive: supervision, auto-recovery, observability, cost governance.
+  I build and run a whole production AI platform on my own — <b>120+ live services</b>, mostly in Rust.<br/>
+  Agents that supervise other agents, retrieval that's actually measured, and the boring infrastructure<br/>
+  that keeps it all standing when I'm asleep. I care about the part after the demo works.
 </p>
 
 <p align="center">
-  <b>120+ production services · one engineer · 12,166 private contributions in the last year</b><br/>
-  <sub>189,000+ memories at 100% embedding coverage · Rust · TypeScript · Python</sub>
-</p>
-
-<p align="center">
-  🔗 <a href="https://ark.chakrakali.com"><b>Portfolio & case studies → ark.chakrakali.com</b></a>
-  &nbsp;·&nbsp; 📫 <a href="mailto:engineering@chakrakali.com">engineering@chakrakali.com</a>
-</p>
-
-<p align="center">
-  <sub>Open to <b>select remote contract / consulting engagements</b> — LLM orchestration, RAG, and AI infrastructure.</sub>
+  <a href="https://ark.chakrakali.com"><b>ark.chakrakali.com</b></a>
+  &nbsp;·&nbsp; <a href="mailto:engineering@chakrakali.com">engineering@chakrakali.com</a>
+  &nbsp;·&nbsp; <sub>open to a few remote contract / consulting engagements</sub>
 </p>
 
 ---
 
-### 📌 Pinned — the work is the proof
+### What I'd point you at first
 
-| Repo | What it proves |
-|---|---|
-| [**portfolio**](https://github.com/SA-Ark/portfolio) | The estate map — **120+ production microservices, one engineer**. Architecture, doctrine, and live demos. Showcase, no source. |
-| [**nexus**](https://github.com/SA-Ark/nexus) | **Multi-agent orchestration runtime** — DAG scheduling, evidence-based liveness, auto-recovery, human-in-the-loop gates, token-cost governance. **[Live demo →](https://nexus.chakrakali.com)** |
-| [**aegis**](https://github.com/SA-Ark/aegis) | **Production-readiness audit CLI** (Rust, one binary) — secrets, dependency, test-debt, config, and live-endpoint risk graded into one defensible score. Full source. |
-| [**mindvault**](https://github.com/SA-Ark/mindvault) | **RAG + knowledge-graph memory engine** on pgvector — hybrid recall (BM25 + vector + reciprocal-rank fusion) with a built-in eval harness (recall@k, MRR, latency percentiles). |
-| [**scour**](https://github.com/SA-Ark/scour) | **Zero-dependency Rust hybrid-search primitives** — BM25, HNSW ANN, reciprocal-rank fusion, UTF-8-safe chunking. **[Live demo →](https://scour.chakrakali.com)** · Full source. |
+- **[nexus](https://github.com/SA-Ark/nexus)** — how I keep a fleet of AI agents from falling over. It schedules work as a dependency graph, notices when an agent stalls (by evidence, not a timeout), retries it, and stops to ask a human when a call is above its pay grade. [Watch it run →](https://nexus.chakrakali.com)
+- **[aegis](https://github.com/SA-Ark/aegis)** — a Rust CLI that grades a codebase or a live URL the way I would on day one of a rescue: leaked secrets, shaky dependencies, untested critical paths, sloppy config. One binary, one score. Full source.
+- **[mindvault](https://github.com/SA-Ark/mindvault)** — the memory layer behind my agents. Hybrid recall (BM25 + vectors, fused) over a knowledge graph on pgvector, and I don't ship a retrieval change without the eval harness proving it (recall@k, MRR, latency).
+- **[scour](https://github.com/SA-Ark/scour)** — the search primitives underneath that, pulled out into a zero-dependency Rust crate: BM25, HNSW, rank fusion, chunking that doesn't split a UTF-8 character in half. [Live demo →](https://scour.chakrakali.com) · Full source.
+- **[portfolio](https://github.com/SA-Ark/portfolio)** — the map of the whole estate: architecture, how one person operates 120+ services, and links to the live demos.
 
 ---
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.svg" alt="metrics" />
-
 <img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.isocalendar.svg" alt="contribution calendar" />
-
 <img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/output/metrics.languages.svg" alt="languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SA-Ark&bg_color=0d1117&color=5A67D8&line=5A67D8&point=ffffff&hide_border=true&area=true" alt="activity graph" width="98%" />
 
 </div>
 
 ---
 
-### Operating principles
+### How I work
 
-- **The diff is the proof.** Claims ship with benchmarks, tests, and before/after numbers — or they're marked pending.
-- **Debug the root cause.** Workarounds are debt with interest.
-- **No silent failures.** Detect → confirm → recover → escalate loudly. Liveness by evidence, never by arbitrary timeout.
-- **Measure retrieval, don't vibe it.** No eval harness → no quality claim. recall@k and MRR or it didn't happen.
-- **Quality is a ratchet.** Gates only tighten. A deploy that would lower the bar doesn't deploy.
+I don't call something done because it compiled — I call it done when it's verified on the real URL. Every claim I make about a system comes with a benchmark or a test, or I say it's pending. When something breaks I go find the actual cause instead of papering over it, because a workaround is just a slower bug. And I keep the quality gates one-directional: they can tighten, never loosen.
 
-### Stack
-
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?logo=postgresql&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GPU / CUDA](https://img.shields.io/badge/GPU%20%2F%20CUDA-76B900?logo=nvidia&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-5A67D8)
-![Multi--Agent](https://img.shields.io/badge/Multi--Agent%20Systems-5A67D8)
-![LLM Orchestration](https://img.shields.io/badge/LLM%20Orchestration-5A67D8)
-![Semantic Search](https://img.shields.io/badge/Semantic%20Search-5A67D8)
-![MLOps](https://img.shields.io/badge/MLOps-5A67D8)
-![Observability](https://img.shields.io/badge/Observability-5A67D8)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-5A67D8)
-![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-5A67D8)
-
----
-
-<p align="center"><i>Production AI, distributed systems, and the eval harnesses that keep them honest. That's the lane.</i></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PostgreSQL%20%2B%20pgvector-336791?logo=postgresql&logoColor=white" alt="PostgreSQL + pgvector" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
+</p>
