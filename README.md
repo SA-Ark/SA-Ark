@@ -16,9 +16,9 @@
 </p>
 
 <p align="center">
-  I build and run a whole production AI platform on my own — <b>120+ live services</b>, mostly in Rust.<br/>
-  Agents that supervise other agents, retrieval that's actually measured, and the boring infrastructure<br/>
-  that keeps it all standing when I'm asleep. I care about the part after the demo works.
+  One engineer, <b>120+ live services</b>, mostly Rust. Agents that supervise other agents,<br/>
+  retrieval that's actually measured, and the infrastructure that keeps it all up at 3 a.m.<br/>
+  Anyone can ship a demo. I run the part that comes after.
 </p>
 
 <p align="center">
@@ -84,7 +84,7 @@
 
 ### How I work
 
-I don't call something done because it compiled — I call it done when it's verified on the real URL. Every claim I make about a system comes with a benchmark or a test, or I say it's pending. When something breaks I go find the actual cause instead of papering over it, because a workaround is just a slower bug. And I keep the quality gates one-directional: they can tighten, never loosen.
+"Done" means it's verified on the live URL, not that it compiled. If I claim a system does something, there's a benchmark or a test behind it — otherwise I'll tell you it's unverified. When something breaks I dig for the actual cause; patching the symptom just hides the next outage. And the CI gates only ever get stricter.
 
 ### Stack
 
