@@ -84,7 +84,9 @@
 
 ### How I work
 
-"Done" means it's verified on the live URL, not that it compiled. If I claim a system does something, there's a benchmark or a test behind it — otherwise I'll tell you it's unverified. When something breaks I dig for the actual cause; patching the symptom just hides the next outage. And the CI gates only ever get stricter.
+The industry has gotten very good at selling the demo. A model that shines in a notebook, an agent that performs once on a launch stage — and then comes apart the first week it meets real customers, real load, and a real invoice. Dazzling in five minutes, unaccountable over eighteen months. That gap between the pitch and the operation is where most AI budgets quietly disappear.
+
+My work lives on the other side of that gap. A system isn't finished when the code runs — it's finished when it survives real use on the live product, because standing something up is the cheap part and keeping it upright is the part a business is actually paying for. I don't claim a capability I can't show you running with the numbers behind it, so what you're buying is a measured outcome rather than a slide. And when something breaks — it always eventually does — I spend the time to find why instead of quieting the symptom, because the shortcut that saves an afternoon today is the customer-facing outage next quarter. What you're left holding is a system that grows more dependable the longer it runs, not one that decays the moment I walk away.
 
 ### Stack
 
