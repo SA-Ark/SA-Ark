@@ -2021,10 +2021,10 @@
                                 <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.9433962264150946 0,1.9433962264150944 z"/>
                                 <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.9433962264150944 1.7,2.9433962264150946 z"/>
                             </g>
-                            <g transform="translate(-8.5, 10.377358490566039)">
+                            <g transform="translate(-8.5, 10.358490566037736)">
                                 <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6226415094339623 0,1.6226415094339623 z"/>
-                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6226415094339623 1.7,2.6226415094339623 z"/>
+                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6415094339622645 0,1.6415094339622642 z"/>
+                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6415094339622642 1.7,2.6415094339622645 z"/>
                             </g>
                         </g>
                     </g>
