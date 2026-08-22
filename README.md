@@ -7,7 +7,7 @@
 -->
 
 <!-- Banner carries the name; the bare <h1>Ark</h1> is intentionally replaced by this. -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0d1117,100:1e3a5f&text=Ark&fontSize=52&fontColor=e2e8f0&fontAlignY=40&animation=fadeIn&desc=Production%20AI%20Systems%20Engineer&descSize=16&descAlignY=60&descColor=8b949e" alt="Ark — Production AI Systems Engineer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0a2e5f,100:5aa2e0&text=Ark&fontSize=52&fontColor=ffffff&fontAlignY=40&animation=fadeIn&desc=Production%20AI%20Systems%20Engineer&descSize=16&descAlignY=60&descColor=dbeafe" alt="Ark — Production AI Systems Engineer" width="100%" />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -16,9 +16,11 @@
 </p>
 
 <p align="center">
-  One engineer, <b>120+ live services</b>, mostly Rust. Agents that supervise other agents,<br/>
-  retrieval that's actually measured, and the infrastructure that keeps it all up at 3 a.m.<br/>
-  Anyone can ship a demo. I run the part that comes after.
+  One engineer running a <b>120+ service</b> production AI platform, mostly in Rust — multi-agent
+  orchestration, RAG and search over vector databases, and GPU media pipelines.<br/>
+  Agents that supervise other agents, retrieval measured against ground truth, and the
+  infrastructure that keeps all of it answering at 3 a.m.<br/><br/>
+  <b>Anyone can ship a demo. I build the system that's still standing eighteen months later.</b>
 </p>
 
 <p align="center">
