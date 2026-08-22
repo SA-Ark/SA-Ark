@@ -90,6 +90,57 @@ The industry has gotten very good at selling the demo. A model that shines in a 
 
 My work lives on the other side of that gap. A system isn't finished when the code runs — it's finished when it survives real use on the live product, because standing something up is the cheap part and keeping it upright is the part a business is actually paying for. I don't claim a capability I can't show you running with the numbers behind it, so what you're buying is a measured outcome rather than a slide. And when something breaks — it always eventually does — I spend the time to find why instead of quieting the symptom, because the shortcut that saves an afternoon today is the customer-facing outage next quarter. What you're left holding is a system that grows more dependable the longer it runs, not one that decays the moment I walk away.
 
+### Selected design work
+
+A live gallery of production-grade interface designs across industries — one codebase, many products, each built with an AI-enhanced design system that owns type, motion, and layout end to end. **[Explore the live, interactive gallery →](https://ark.chakrakali.com/designs)**
+
+<div align="center">
+
+<table>
+<tr>
+<td width="420" align="center">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/ecommerce.jpg" width="400" alt="E-commerce — AURUM Atelier luxury watch storefront" /></a><br/>
+  <sub><b>E-commerce</b> · AURUM Atelier — luxury storefront + 3D configurator</sub>
+</td>
+<td width="420" align="center">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/fintech.jpg" width="400" alt="Fintech — NORTHWIND private bank landing" /></a><br/>
+  <sub><b>Fintech</b> · NORTHWIND — private bank, floating 3D metal card</sub>
+</td>
+</tr>
+<tr>
+<td width="420" align="center">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/saas.jpg" width="400" alt="SaaS — PULSEGRID product analytics dashboard" /></a><br/>
+  <sub><b>SaaS</b> · PULSEGRID — product analytics with live charts</sub>
+</td>
+<td width="420" align="center">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/healthcare.jpg" width="400" alt="Healthcare — WILLOW Health clinic landing" /></a><br/>
+  <sub><b>Healthcare</b> · WILLOW Health — calm clinic + booking flow</sub>
+</td>
+</tr>
+<tr>
+<td width="420" align="center">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/devtools.jpg" width="400" alt="Dev Tools — TORQUE CI/CD pipeline landing" /></a><br/>
+  <sub><b>Dev Tools</b> · TORQUE — CI/CD with a self-typing terminal</sub>
+</td>
+<td width="420" align="center">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/music.jpg" width="400" alt="Music — VOLTA player landing" /></a><br/>
+  <sub><b>Music</b> · VOLTA — lossless player with live visualizer</sub>
+</td>
+</tr>
+<tr>
+<td width="420" align="center" colspan="2">
+  <a href="https://ark.chakrakali.com/designs"><img src="https://raw.githubusercontent.com/SA-Ark/SA-Ark/main/assets/designs/travel.jpg" width="400" alt="Travel — VELA Voyages editorial landing" /></a><br/>
+  <sub><b>Travel</b> · VELA Voyages — editorial, film-backed itineraries</sub>
+</td>
+</tr>
+</table>
+
+<sub>Seven of twelve industries · <a href="https://ark.chakrakali.com/designs">see all twelve, interactive →</a></sub>
+
+</div>
+
+---
+
 ### Stack
 
 **Languages** · Rust · TypeScript · Python · SQL
