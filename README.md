@@ -18,8 +18,9 @@
 <p align="center">
   One engineer running a <b>120+ service</b> production AI platform, mostly in Rust — multi-agent
   orchestration, RAG and search over vector databases, and GPU media pipelines.<br/>
-  I also design and build the front of house: fast, accessible Next.js interfaces with an
-  AI-enhanced design system, so the same person owns the model, the infrastructure, and the pixels.<br/><br/>
+  I also design and build the front of house: fast, accessible, AI-native Next.js interfaces —
+  an AI-enhanced design system on the front, llms.txt and structured data underneath so the sites
+  are discoverable by LLMs and answer engines. The same person owns the model, the infrastructure, and the pixels.<br/><br/>
   <b>Anyone can ship a demo. I build the system that's still standing eighteen months later.</b>
 </p>
 
@@ -156,6 +157,8 @@ Interface design across industries — luxury retail, fintech, healthcare, SaaS,
 **Infra / Ops** · Docker · Linux · systemd · Cloudflare · CI/CD · observability · self-hosted fleet · Model Context Protocol (MCP)
 
 **Frontend / Design** · Next.js · React · Tailwind CSS · design systems · motion / micro-interactions · accessibility (WCAG) · responsive UI · AI-assisted design tooling · data visualization
+
+**AI-native web / GEO** · llms.txt · JSON-LD structured data · generative-engine optimization · answer-engine discoverability · schema.org · semantic markup
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust,ts,python,go,postgres,redis,docker,linux,cloudflare,nextjs,react,tailwind,vercel,nginx,wasm,githubactions&perline=8" alt="tech stack" />
